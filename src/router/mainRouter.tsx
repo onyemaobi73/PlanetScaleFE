@@ -1,10 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom'
-import HomeScreen from '../Pages/HomeScreen'
+import Pricing from '../Pages/components/Pricing'
+import Hero from '../Pages/components/Hero'
 
 const mainRouter = createBrowserRouter([
     {
         path: "/",
-        element:<HomeScreen/>
+        element:<Hero/>
+    }, {
+        path: "/pricing",
+        element:<Pricing/>
     }
 ])
 

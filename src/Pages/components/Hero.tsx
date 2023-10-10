@@ -1,11 +1,19 @@
-import Header from "../../components/common/Godswill"
-import SubHeader from "../../components/common/Udida"
+import Godswill from "../../components/common/Godswill"
+import Header from "../../components/common/Header"
+import Stebin from "../../components/common/Stebin"
+import Udida from "../../components/common/Udida"
+import After from "../../components/common/After"
 
 const Hero = () => {
   return (
-      <div>
+    <div>
       <Header />
-      <SubHeader/>
+      <After/>
+      <Godswill />
+      <Udida />
+        <Stebin />
+
+
     </div>
   )
 }
