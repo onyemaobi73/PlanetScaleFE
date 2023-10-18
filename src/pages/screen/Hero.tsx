@@ -2,7 +2,7 @@ import pix from "../../assets/photo shoot.jpg"
 
 const Hero = () => {
   return (
-    <div className="w-[100%] py-[80px] medium:py-0 bg-slate-300 flex items-center justify-center ma">
+    <div className="w-[100%] py-[80px] medium:py-0 bg-slate-300 flex items-center justify-center ">
         <div className="w-[90%] flex items-center justify-between small:flex-col">
         <div className="w-[40%] relative rounded-[20px] justify-center items-center flex h-[530px] object-cover small:w-[93%]"> <img src={pix} alt="" className="object-cover rounded-[20px] small:rounded-[20px] small:h-[500px] small:w-[93%]"/>
         <div className=" absolute w-[180px] h-[180px] medium:h-[150px] small:hidden medium:w-[150px] rounded mt-[-140px] mb-[150px]medium:mb-[110px] medium:mr-[80%] mr-[85%] object-cover medium:object-cover"><img src={pix} alt="" className=" small:hidden rounded-[15px] object-cover h-[180px] w-[180px]  medium:w-[120px] medium:h-[120px]"/></div>
